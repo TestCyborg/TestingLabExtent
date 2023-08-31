@@ -8,10 +8,10 @@ node{
       }
       stage('Compile-Package'){
         // Get maven home path
-        def mvnHome = tool name: 'TestMaven', type: 'maven'
-        sh "${mvnHome}/bin/mvn package"
+        // def mvnHome = tool name: 'TestMaven', type: 'maven'
+        // sh "${mvnHome}/bin/mvn package"
 //         steps {
-//                 sh 'mvn package'
+                 sh 'mvn package'
 //               }
       }
 //   }
