@@ -15,7 +15,7 @@ pipeline {
   }
   stages {
     stage('SCM Checkout'){
-      git 'https://github.com/TestCyborg/TestingLab.git'
+      git 'https://github.com/TestCyborg/TestingLabExtent.git'
     }
     stage ('Build') {
       steps {
